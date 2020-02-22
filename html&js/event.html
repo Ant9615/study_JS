@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        onclick의 속성을 웹 브라우져에 기억했다가 버튼을 클릭했을 때
+        동작을 할 것이다.
+        이때 alert는 경고창 이벤트
+     -->
+    <input type="button" value="hi" onclick="alert('hi')">
+    <!-- 
+        onchange="alert('changed')
+        내용을 변했을 때 이벤트를 체크하는 이벤트
+     -->
+    <input type="text" onchange="alert('changed')">
+    <!-- 
+        유저와 상호작용하는 이벤트
+        onkeydown은 key down을 반응하는 이벤트
+     -->
+    <input type="text" onkeydown="alert('key down')">
+</body>
+</html>
