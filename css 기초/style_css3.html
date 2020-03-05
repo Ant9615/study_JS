@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*. 'class name'은 class에 대한 css
+    id는# span 태그에 대한 css속성 지정은 그냥 span이라고 하면 됨 속성 우선순위는 id가 가장 우선적임 그리고 class
+    */
+      .js {
+        font-weight: bold;
+        color: green;
+      }
+      #js {
+        color: red;
+      }
+      span {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- style tag를 이용한 css 사용 -->
+    <h1>web</h1>
+    <h2 style="background-color:coral; color: yellow;">javascript</h2>
+    <!-- tag 안에 style 등의 속성을  property라고 한다-->
+    <p>
+      <!-- 
+        div:
+        div 태그는 css나 js 정보를 제어할 때 씀 하지만 이 태그는 한 부분을 차지한다  
+        span:
+        div 태그와 비슷한 기능을 가지지만, 한부분을 차지하지 않다.
+        
+        style 태그를 head 태그 안에 집어 넣을 수 있음
+        
+        ctrl+d:
+        같은 텍스트를 여러개 묶을 수 있음
+
+        class:
+        어떤 대상을 grouping 한다. id보다 포괄적
+
+        id:
+        어떤 대상을 식별한다. 어떤 대상을 targeting
+    -->
+
+      <span id="js" class="js">JavaScript</span>(/ˈdʒɑːvəˌskrɪpt/[6]), often
+      abbreviated as JS, is a high-level, dynamic, weakly typed,
+      prototype-based, multi-paradigm, and interpreted language.
+      <span class="js">Alongside</span> HTML and CSS, JavaScript is one of the
+      three core technologies of World Wide Web content production.
+      <span class="js"
+        >It is used to make webpages interactive and provide online programs,
+        including video games.</span
+      >
+      The majority of websites employ it, and all modern web browsers support it
+      without the need for plug-ins by means of a built-in JavaScript engine.
+      <span id="js">Each of the many</span> JavaScript engines represent a
+      different implementation of JavaScript, all based on the ECMAScript
+      specification, with some engines not supporting the spec fully,
+      <span id="js"
+        >and with many engines supporting additional features beyond ECMA.</span
+      >
+    </p>
+  </body>
+</html>

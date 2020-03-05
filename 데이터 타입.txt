@@ -1,0 +1,18 @@
+JS 
+js data type
+mozila 재단의 java script 문서 참고 
+# 산술 연산자 (+ * - / etc)
+# 문자
+e.g., "Hello world"(or 작은 따옴표도 가능)
+글자수를 알고 싶을 때
+"Hello world".length
+# 문자 모듀를 대문자로 
+"Hello world".toUpperCase()
+# 지정 문자 찾기 
+"Hello world".indexOf('o')
+>> 4 
+# 공백 제거
+'       hello        '.trim()
+# "1"은 문자열로 처리
+<- "1"+"1"
+>>"11"
