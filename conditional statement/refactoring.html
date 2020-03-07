@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web</title>
+  </head>
+  <body id="layout">
+    <!-- refactoring은 작업 후에 코드가 비효율적인 부분을 
+    가독성을 높이고 유지보수가 수월하게끔 다시 개선하는 작업
+    프로그램의 규모가 커질 수록 틈틈히 refactoring작업을 해줘야함 -->
+    <h1>Web</h1>
+    <input id="night_day2" type="button" value="night" onclick="
+    var target = document.querySelector('#layout'); // 변수를 활용해서 간결화
+    if(this.value === 'night'){ // this는 자신의 index를 가르킴
+        target.style.backgroundColor='black';
+        target.style.color='white';
+        this.value = 'day';
+    } else{
+        target.style.backgroundColor='white';
+        target.style.color='black';
+        this.value='night';
+    }
+    ">
+    <ol>
+        <li><a href="./html&js/script tag.html">HTML</li>
+        <li><a href="./css 기초/style_css1.html">CSS</a></li>
+        <li><a href="./데이터 타입.txt">java script</a></li>
+    </ol>
+    <h2>JavaScript</h2>
+    <p>
+      JavaScript(/ˈdʒɑːvəˌskrɪpt/[6]), often
+      abbreviated as JS, is a high-level, dynamic, weakly typed,
+      prototype-based, multi-paradigm, and interpreted language.
+      Alongside HTML and CSS, JavaScript is one of the
+      three core technologies of World Wide Web content production.
+      It is used to make webpages interactive and provide online programs,
+      including video games.
+      The majority of websites employ it, and all modern web browsers support it
+      without the need for plug-ins by means of a built-in JavaScript engine.
+      Each of the many JavaScript engines represent a
+      different implementation of JavaScript, all based on the ECMAScript
+      specification, with some engines not supporting the spec fully,
+      and with many engines supporting additional features beyond ECMA.
+    </p>
+  </body>
+</html>
