@@ -1,0 +1,16 @@
+JS 변수와 대입 연산자 
+# 변수 할당
+> x = 1;
+> y = 1;
+> x+y;
+<- 2 
+> 1=2;
+<- error 
+# 1은 상수(constant)
+# =은 대입연산자로도 쓰임
+# 변수의 불완전한 예제
+- 만약 어떠한 문장에 변수에 할당한 단어를 여러개 추가 하고 경고창으로 뜨게하고 싶을 때 
+> n = 'gu';
+  alert("As of Go 1.13, the go command by default downloads and authenticates modules using the Go module mirror and Go checksum database run by Google."+n+ "See https://proxy.golang.org/privacy for privacy information about these services and the go command documentation for"+n+ "configuration details including how to disable the use of these servers or use different" +n+ "ones.");
+# 그리고 변수 선언 앞에 가급적이면 var을 쓴다 
+> var n='gu';
